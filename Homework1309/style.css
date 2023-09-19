@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#root {
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.text {
+    background-image: url(./image/backgroundHead.svg);
+    max-width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 734px;
+    height: 171px;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    gap: 30px;
+    margin-top: 192px;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: white;
+    width: 734px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    background-color: white;
+}
+
+.container>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+    width: 190px;
+    height: 186px;
+}
+
+.container>div>h2 {
+    color:#F7654A;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container>div>h3 {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container>div>p {
+    color: #999;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
